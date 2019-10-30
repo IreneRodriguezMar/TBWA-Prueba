@@ -1,0 +1,158 @@
+body, html {
+    margin: 0;
+}
+.content img.bg-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.content-info {
+    position: relative;
+}
+
+.content-header, .titles, .content-third, .content-third .table .titles,
+.complement div, .other-txt, .other-txt .button, .other-txt .button button {
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+}
+
+.content-header{
+    -webkit-box-pack: flex-end;
+	-ms-flex-pack: end;
+	-webkit-justify-content: flex-end;
+    justify-content: flex-end;
+}
+
+.other-txt .button button, .other-txt .button {
+    -webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+    justify-content: center;
+}
+
+.content-third {
+    -webkit-box-align: flex-end;
+    -webkit-align-items: end;
+    -ms-flex-align: flex-end;
+    align-items: flex-end;
+}
+.other-txt {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.titles, .content-third, .other-txt {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction:column;
+}
+.content-third .table .titles, .complement div {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+}
+
+.content-txt, .content-third {
+    font-family: 'Assistant', sans-serif;
+}
+
+.titles {
+    font-family: 'Archivo Black', sans-serif;
+}
+
+
+/*social*/
+img.logo {
+    position: absolute;
+    left: 18%;
+    width: 8%;
+    height: 20%;
+}
+.content-header {
+    padding: 0 15% 0 15%;
+}
+.content-header div {
+    margin: 0 .5%;
+}
+
+/*title and text*/
+.titles h2 {
+    font-size: 1.8vw;
+    margin-bottom: 0;
+}
+.titles {
+    padding: 0 30%;
+}
+
+.titles h3 {
+    font-size: 1.3vw;
+    margin-top: .5%;
+}
+
+.content-txt p {
+    margin: 0;
+}
+
+.content-txt {
+    font-size: 1.1vw;
+    font-weight: 600;
+    padding: 0 10% 0% 30%;
+}
+
+/*table*/
+.content-third {
+    padding: 3% 10% 0 10%;
+}
+.content-third p {
+    padding-right: 12%;
+    font-weight: 600;
+}
+
+.model {
+    width: 80%;
+}
+
+.price {
+     width: 20%;
+}
+.content-third .table .titles {
+    background-color: #ffffff63;
+    padding: 2% 1%;
+    font-weight: 900;
+}
+.complement {
+    background-color: #ffffff2b;
+}
+.complement div {
+    padding: 1.1% 1%;
+    font-weight: 600;
+}
+.button {
+    width: 65%;
+    height: auto;
+    margin-top: 4%;
+}
+.other-txt .button {
+    width: 100%;
+    height: auto;
+}
+.other-txt .button button {
+    background-color: #CD0E44;
+    border: none;
+    color: white;
+    padding: 2% 2%;
+}
+.other-txt p {
+    padding: 0;
+    text-align: center;
+    font-weight: 600;
+    margin: 3% 0 0;
+}
