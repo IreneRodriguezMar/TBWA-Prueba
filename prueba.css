@@ -92,7 +92,7 @@ img.logo {
 
 /*title and text*/
 .titles h2 {
-    font-size: 1.8vw;
+    font-size: 1.5em;
     margin-bottom: 0;
 }
 .titles {
@@ -100,7 +100,7 @@ img.logo {
 }
 
 .titles h3 {
-    font-size: 1.3vw;
+    font-size: 1.1em;
     margin-top: .5%;
 }
 
@@ -116,12 +116,12 @@ img.logo {
 
 /*table*/
 .content-third {
-    padding: 6% 15% 0 10%;
+    padding: 5% 15% 0 10%;
 }
 .content-third p {
     padding-right: 10%;
     font-weight: 600;
-    font-size: 1vw;
+    font-size: .9em;
 }
 
 .model {
@@ -142,7 +142,7 @@ img.logo {
 .complement div {
     padding: 1.1% 1%;
     font-weight: 600;
-    font-size: 1vw;
+    font-size: .9em;
 }
 .button {
     width: 65%;
@@ -162,7 +162,7 @@ img.logo {
     border: none;
     color: white;
     padding: 1.8% 2%;
-    font-size: .9vw;
+    font-size: .8em;
     font-weight: 600;
 }
 .other-txt p {
@@ -170,7 +170,7 @@ img.logo {
     text-align: center;
     font-weight: 600;
     margin: 3% 0 0;
-    font-size: 1vw;
+    font-size: .9em;
 }
 
 
