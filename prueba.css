@@ -182,7 +182,7 @@ img.logo {
         padding: 0 5%;
     }
     .titles h2 {
-        font-size: 4.8vw;
+        font-size: 1em;
     }
     .titles h3 {
         font-size: 3.7vw;
@@ -190,7 +190,7 @@ img.logo {
     }
     .content-txt {
         padding: 0 5%;
-        font-size: 4.6vw;
+        font-size: .8em;
     }
     img.logo {
         width: 20%;
@@ -198,18 +198,20 @@ img.logo {
     }
     .content-third p {
         margin-top: 0;
-        font-weight: 900;
-        font-size: 4.8vw;
+        font-size: .8em;
+        padding: 0;
+        width: 100%;
+        text-align: center;
     }
     .content-third {
         padding: 5%;
     }
 
     .complement div, .other-txt .button button {
-        font-size: 3.7vw;
+        font-size: .9em ;
     }
     .other-txt p {
-        font-size: 3.7vw;
+        font-size: .8em;
         padding-top: 3%;
     }
     .other-txt .button button {
